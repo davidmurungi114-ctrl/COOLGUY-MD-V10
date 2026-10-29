@@ -1,4 +1,6 @@
-<h1 align="center"> COOLGUY MD TECH V10 </h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=COOLGUY+MD+TECH+V10" alt="COOLGUY MD TECH V10" />
+</h1>
 
 <p align="center">
   <a href="https://github.com/davidmurungi114-ctrl/COOLGUY-MD-TECH-V10">

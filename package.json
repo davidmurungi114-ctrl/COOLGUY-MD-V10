@@ -1,7 +1,7 @@
 {
-  "name": "coolguy-md-tech",
-  "version": "1.0.0",
-  "description": "COOLGUY MD TECH - The best Whatsapp bot",
+  "name": "coolguy-md-tech-v10",
+  "version": "10.0.0",
+  "description": "COOLGUY MD TECH V10 - Most Powerful WhatsApp Bot by David 🇺🇬 | Owner 256750765838 | Powered by CYPHER-X Engine",
   "main": "cypher.js",
   "engines": {
     "node": "22.x"
@@ -13,7 +13,7 @@
       "restart": "pkill -f node && npm start",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
-  "author": "COOLGUY MD TECH",
+  "author": "David 256750765838 - COOLGUY MD TECH V10",
   "allowScripts": {
     "@google/genai": true,
     "@whiskeysockets/baileys": true,

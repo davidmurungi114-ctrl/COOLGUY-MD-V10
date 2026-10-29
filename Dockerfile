@@ -21,5 +21,5 @@ EXPOSE 3000
 # Set environment
 ENV NODE_ENV production
 
-# Run command
+# Run COOLGUY MD TECH V10
 CMD ["npm", "run", "start"]

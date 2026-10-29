@@ -1,9 +1,9 @@
 {
-  "name": "CypherX",
-  "description": "CypherX, your friendly assistant!",
-  "logo": "https://i.ibb.co/nqsRcKDB/Xploader4.jpg",
-  "keywords": [],
-  "repository": "https://github.com/Dark-Xploit/CypherX",
+  "name": "COOLGUY MD TECH V10",
+  "description": "COOLGUY MD TECH V10 - Powerful WhatsApp Bot by David 🇺🇬 | Owner 256750765838 | Powered by CYPHER-X Engine",
+  "logo": "https://files.catbox.moe/wr2ush.jpg",
+  "keywords": ["coolguy", "coolguy-md", "v10", "whatsapp-bot", "cypher-x"],
+  "repository": "https://github.com/davidmurungi114-ctrl/COOLGUY-MD-TECH-V10",
   "stack": "heroku-24",
   "addons": [
     {
@@ -11,13 +11,53 @@
     }
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node cypher.js"
   },
   "env": {
     "SESSION_ID": {
-      "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
+      "description": "Get from https://pair.cypherxbot.space - Must begin with CYPHER-X:~ or CYPHER-X-MD~ or XPLOADER-BOT:~",
       "value": "",
       "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number with country code",
+      "value": "256750765838",
+      "required": false
+    },
+    "OWNER_NAME": {
+      "description": "Your name",
+      "value": "David",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Bot Name",
+      "value": "COOLGUY MD TECH V10",
+      "required": false
+    },
+    "PACKNAME": {
+      "description": "Sticker pack name",
+      "value": "COOLGUY MD TECH V10",
+      "required": false
+    },
+    "AUTHOR": {
+      "description": "Sticker author",
+      "value": "David 🇺🇬",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Bot prefix",
+      "value": ".",
+      "required": false
+    },
+    "MODE": {
+      "description": "Bot mode public/private",
+      "value": "public",
+      "required": false
+    },
+    "ALIVE_IMG": {
+      "description": "Bot alive/menu image URL",
+      "value": "https://files.catbox.moe/wr2ush.jpg",
+      "required": false
     }
   },
   "buildpacks": [
